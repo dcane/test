@@ -13,7 +13,7 @@
 
 
 
-$conn = oci_pconnect('cms','cms', '172.16.20.252/oracledb');
+$conn = oci_pconnect('cms','cms', '172.16.20.251/oracledb');
 
 if (!$conn) {
 trigger_error("Could not connect to database", E_USER_ERROR);
